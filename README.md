@@ -29,3 +29,12 @@ Si lo tenemos debemos construir nuestro proyecto a base de Gradle con:
     
 Verificar que las librerias esten importadas.    
 
+Ahora iniciamos nuestro proyecto con:                               
+
+    $ gradle bootRun
+
+Y por úiltimo verificamos en el browser la dirección: 
+
+    http://localhost:8080/saludar
+    o
+    http://localhost:8080/saludar?name=Mario
