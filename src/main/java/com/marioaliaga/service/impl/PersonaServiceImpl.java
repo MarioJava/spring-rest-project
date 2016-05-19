@@ -1,5 +1,6 @@
 package com.marioaliaga.service.impl;
 
+import com.marioaliaga.PersonaServiceDummy;
 import com.marioaliaga.domain.Persona;
 import com.marioaliaga.service.PersonaService;
 import org.springframework.stereotype.Component;
@@ -14,11 +15,11 @@ public class PersonaServiceImpl implements PersonaService {
 
     @Override
     public Persona getPersona(Integer idPersona) {
-        return new Persona(1, "Homero", "Simpson", "Direccion", "+5612345678", "email@host.com");
+        return new PersonaServiceDummy().getOnePersona();
     }
 
     @Override
     public List<Persona> getPersonas() {
-        return null;
+        return new PersonaServiceDummy().getListPersona();
     }
 }
