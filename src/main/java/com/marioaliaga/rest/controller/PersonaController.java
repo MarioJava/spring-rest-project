@@ -45,7 +45,7 @@ public class PersonaController {
 
     @RequestMapping(value = "/personas/{id}", method = RequestMethod.GET)
     public HttpEntity<Persona> persona(
-            @PathVariable int id) {
+            @PathVariable Integer id) {
 
         Persona persona = personaService.getPersona(id);
 
