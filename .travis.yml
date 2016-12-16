@@ -1,0 +1,6 @@
+language: java
+script: ./gradlew check
+notifications:
+  email: ma@marioaliaga.com
+jdk:
+  - oraclejdk7
