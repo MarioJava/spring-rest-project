@@ -2,4 +2,4 @@ language: java
 notifications:
   email: ma@marioaliaga.com
 jdk:
-  - oraclejdk7
+  - oraclejdk8
