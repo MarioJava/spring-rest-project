@@ -38,6 +38,8 @@ configurations {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-hateoas')
+    // https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-all
+    compile('org.codehaus.groovy:groovy-all:2.4.6')
 	compile('org.projectlombok:lombok:1.16.6')
     testCompile("com.jayway.jsonpath:json-path")
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
